@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		123154D31F26F35C00300563 /* NSData+NGTBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 123154D21F26F35C00300563 /* NSData+NGTBase64.m */; };
+		123154D61F26F4EF00300563 /* NSString+NGTBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 123154D51F26F4EF00300563 /* NSString+NGTBase64.m */; };
+		123154D91F27518100300563 /* NSString+NGTMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 123154D81F27518100300563 /* NSString+NGTMD5.m */; };
+		1237F5851F2828D900CA282D /* NSString+NGTRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237F5841F2828D900CA282D /* NSString+NGTRegex.m */; };
+		1237F5881F282CFA00CA282D /* NSString+NGTMicroTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237F5871F282CFA00CA282D /* NSString+NGTMicroTool.m */; };
+		1237F58B1F282ED600CA282D /* NSString+NGTDisplayTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237F58A1F282ED600CA282D /* NSString+NGTDisplayTime.m */; };
+		1237F58F1F2833CC00CA282D /* NSAttributedString+NGTMicroTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237F58E1F2833CC00CA282D /* NSAttributedString+NGTMicroTool.m */; };
+		1237F5911F2836DC00CA282D /* 1_mazy_ma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1237F5901F2836DC00CA282D /* 1_mazy_ma.jpg */; };
+		1237F5951F283AE100CA282D /* NSArray+NGTMicroTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237F5941F283AE100CA282D /* NSArray+NGTMicroTool.m */; };
+		1237F5991F283CBD00CA282D /* NSDictionary+NGTMicroTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237F5981F283CBD00CA282D /* NSDictionary+NGTMicroTool.m */; };
+		1237F59C1F283DC300CA282D /* UIImage+NGTMicroTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237F59B1F283DC300CA282D /* UIImage+NGTMicroTool.m */; };
+		1237F59F1F28404600CA282D /* UIImage+NGTMakeFromColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237F59E1F28404600CA282D /* UIImage+NGTMakeFromColor.m */; };
+		1237F5A21F286D6A00CA282D /* UIImage+NGTTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237F5A11F286D6A00CA282D /* UIImage+NGTTransform.m */; };
+		1237F5AA1F286F2000CA282D /* UIColor+NGTHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237F5A91F286F2000CA282D /* UIColor+NGTHexColor.m */; };
+		1237F5AD1F2872F200CA282D /* UITableViewCell+NGTAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237F5AC1F2872F200CA282D /* UITableViewCell+NGTAnimation.m */; };
+		1237F5B01F2873B600CA282D /* UIButton+NGTTouchExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237F5AF1F2873B600CA282D /* UIButton+NGTTouchExtend.m */; };
+		1237F5B31F2875FA00CA282D /* UIControl+NGTResponseTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237F5B21F2875FA00CA282D /* UIControl+NGTResponseTime.m */; };
+		1237F5B61F287A8600CA282D /* NSData+NGTCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237F5B51F287A8600CA282D /* NSData+NGTCryptor.m */; };
+		1237F5B91F287AE000CA282D /* NSData+NGTDigestCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237F5B81F287AE000CA282D /* NSData+NGTDigestCryptor.m */; };
+		1237F5C01F2882ED00CA282D /* UITextField+NGTMicroTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237F5BF1F2882ED00CA282D /* UITextField+NGTMicroTool.m */; };
+		1237F5C41F28847600CA282D /* NSObject+NGTMicroTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237F5C31F28847600CA282D /* NSObject+NGTMicroTool.m */; };
+		123C33AF1F2635E100DB95BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 123C33AE1F2635E100DB95BE /* main.m */; };
+		123C33B21F2635E100DB95BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 123C33B11F2635E100DB95BE /* AppDelegate.m */; };
+		123C33B51F2635E100DB95BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123C33B41F2635E100DB95BE /* ViewController.m */; };
+		123C33B81F2635E100DB95BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123C33B61F2635E100DB95BE /* Main.storyboard */; };
+		123C33BA1F2635E100DB95BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 123C33B91F2635E100DB95BE /* Assets.xcassets */; };
+		123C33BD1F2635E100DB95BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123C33BB1F2635E100DB95BE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		123154D11F26F35C00300563 /* NSData+NGTBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NGTBase64.h"; sourceTree = "<group>"; };
+		123154D21F26F35C00300563 /* NSData+NGTBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NGTBase64.m"; sourceTree = "<group>"; };
+		123154D41F26F4EF00300563 /* NSString+NGTBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NGTBase64.h"; sourceTree = "<group>"; };
+		123154D51F26F4EF00300563 /* NSString+NGTBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NGTBase64.m"; sourceTree = "<group>"; };
+		123154D71F27518100300563 /* NSString+NGTMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NGTMD5.h"; sourceTree = "<group>"; };
+		123154D81F27518100300563 /* NSString+NGTMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NGTMD5.m"; sourceTree = "<group>"; };
+		1237F5831F2828D900CA282D /* NSString+NGTRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NGTRegex.h"; sourceTree = "<group>"; };
+		1237F5841F2828D900CA282D /* NSString+NGTRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NGTRegex.m"; sourceTree = "<group>"; };
+		1237F5861F282CFA00CA282D /* NSString+NGTMicroTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NGTMicroTool.h"; sourceTree = "<group>"; };
+		1237F5871F282CFA00CA282D /* NSString+NGTMicroTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NGTMicroTool.m"; sourceTree = "<group>"; };
+		1237F5891F282ED600CA282D /* NSString+NGTDisplayTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NGTDisplayTime.h"; sourceTree = "<group>"; };
+		1237F58A1F282ED600CA282D /* NSString+NGTDisplayTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NGTDisplayTime.m"; sourceTree = "<group>"; };
+		1237F58D1F2833CC00CA282D /* NSAttributedString+NGTMicroTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+NGTMicroTool.h"; sourceTree = "<group>"; };
+		1237F58E1F2833CC00CA282D /* NSAttributedString+NGTMicroTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+NGTMicroTool.m"; sourceTree = "<group>"; };
+		1237F5901F2836DC00CA282D /* 1_mazy_ma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_mazy_ma.jpg; sourceTree = "<group>"; };
+		1237F5931F283AE100CA282D /* NSArray+NGTMicroTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NGTMicroTool.h"; sourceTree = "<group>"; };
+		1237F5941F283AE100CA282D /* NSArray+NGTMicroTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NGTMicroTool.m"; sourceTree = "<group>"; };
+		1237F5971F283CBD00CA282D /* NSDictionary+NGTMicroTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NGTMicroTool.h"; sourceTree = "<group>"; };
+		1237F5981F283CBD00CA282D /* NSDictionary+NGTMicroTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NGTMicroTool.m"; sourceTree = "<group>"; };
+		1237F59A1F283DC300CA282D /* UIImage+NGTMicroTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NGTMicroTool.h"; sourceTree = "<group>"; };
+		1237F59B1F283DC300CA282D /* UIImage+NGTMicroTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NGTMicroTool.m"; sourceTree = "<group>"; };
+		1237F59D1F28404600CA282D /* UIImage+NGTMakeFromColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NGTMakeFromColor.h"; sourceTree = "<group>"; };
+		1237F59E1F28404600CA282D /* UIImage+NGTMakeFromColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NGTMakeFromColor.m"; sourceTree = "<group>"; };
+		1237F5A01F286D6A00CA282D /* UIImage+NGTTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NGTTransform.h"; sourceTree = "<group>"; };
+		1237F5A11F286D6A00CA282D /* UIImage+NGTTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NGTTransform.m"; sourceTree = "<group>"; };
+		1237F5A81F286F2000CA282D /* UIColor+NGTHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NGTHexColor.h"; sourceTree = "<group>"; };
+		1237F5A91F286F2000CA282D /* UIColor+NGTHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NGTHexColor.m"; sourceTree = "<group>"; };
+		1237F5AB1F2872F200CA282D /* UITableViewCell+NGTAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+NGTAnimation.h"; sourceTree = "<group>"; };
+		1237F5AC1F2872F200CA282D /* UITableViewCell+NGTAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+NGTAnimation.m"; sourceTree = "<group>"; };
+		1237F5AE1F2873B600CA282D /* UIButton+NGTTouchExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+NGTTouchExtend.h"; sourceTree = "<group>"; };
+		1237F5AF1F2873B600CA282D /* UIButton+NGTTouchExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NGTTouchExtend.m"; sourceTree = "<group>"; };
+		1237F5B11F2875FA00CA282D /* UIControl+NGTResponseTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+NGTResponseTime.h"; sourceTree = "<group>"; };
+		1237F5B21F2875FA00CA282D /* UIControl+NGTResponseTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+NGTResponseTime.m"; sourceTree = "<group>"; };
+		1237F5B41F287A8600CA282D /* NSData+NGTCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NGTCryptor.h"; sourceTree = "<group>"; };
+		1237F5B51F287A8600CA282D /* NSData+NGTCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NGTCryptor.m"; sourceTree = "<group>"; };
+		1237F5B71F287AE000CA282D /* NSData+NGTDigestCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NGTDigestCryptor.h"; sourceTree = "<group>"; };
+		1237F5B81F287AE000CA282D /* NSData+NGTDigestCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NGTDigestCryptor.m"; sourceTree = "<group>"; };
+		1237F5BA1F287FA600CA282D /* NGTMicroToolKitUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGTMicroToolKitUIKit.h; sourceTree = "<group>"; };
+		1237F5BB1F287FFA00CA282D /* NGTMicroToolKitFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGTMicroToolKitFoundation.h; sourceTree = "<group>"; };
+		1237F5BC1F28806F00CA282D /* NGTMicroToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGTMicroToolKit.h; sourceTree = "<group>"; };
+		1237F5BE1F2882ED00CA282D /* UITextField+NGTMicroTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+NGTMicroTool.h"; sourceTree = "<group>"; };
+		1237F5BF1F2882ED00CA282D /* UITextField+NGTMicroTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+NGTMicroTool.m"; sourceTree = "<group>"; };
+		1237F5C21F28847600CA282D /* NSObject+NGTMicroTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NGTMicroTool.h"; sourceTree = "<group>"; };
+		1237F5C31F28847600CA282D /* NSObject+NGTMicroTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NGTMicroTool.m"; sourceTree = "<group>"; };
+		1237F5C51F28869C00CA282D /* NGTMicroToolMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGTMicroToolMacros.h; sourceTree = "<group>"; };
+		123C33AA1F2635E100DB95BE /* NGTMicroToolKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NGTMicroToolKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		123C33AE1F2635E100DB95BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		123C33B01F2635E100DB95BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		123C33B11F2635E100DB95BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		123C33B31F2635E100DB95BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		123C33B41F2635E100DB95BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		123C33B71F2635E100DB95BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		123C33B91F2635E100DB95BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		123C33BC1F2635E100DB95BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		123C33BE1F2635E100DB95BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		123C33A71F2635E100DB95BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123154C81F26F31700300563 /* NGTMicroToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				1237F5BC1F28806F00CA282D /* NGTMicroToolKit.h */,
+				1237F5C51F28869C00CA282D /* NGTMicroToolMacros.h */,
+				123154C91F26F31700300563 /* CoreGraphics */,
+				123154CA1F26F31700300563 /* Foundation */,
+				123154CE1F26F31700300563 /* UIKit */,
+			);
+			name = NGTMicroToolKit;
+			path = ../../NGTMicroToolKit;
+			sourceTree = "<group>";
+		};
+		123154C91F26F31700300563 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		123154CA1F26F31700300563 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				1237F5BB1F287FFA00CA282D /* NGTMicroToolKitFoundation.h */,
+				1237F5C11F28845E00CA282D /* NSObject */,
+				1237F5961F283CAA00CA282D /* NSDictionary */,
+				1237F5921F283AC800CA282D /* NSArray */,
+				1237F58C1F2833B600CA282D /* NSAttributedString */,
+				123154CB1F26F31700300563 /* NSData */,
+				123154CC1F26F31700300563 /* NSDate */,
+				123154CD1F26F31700300563 /* NSString */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		123154CB1F26F31700300563 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				123154D11F26F35C00300563 /* NSData+NGTBase64.h */,
+				123154D21F26F35C00300563 /* NSData+NGTBase64.m */,
+				1237F5B71F287AE000CA282D /* NSData+NGTDigestCryptor.h */,
+				1237F5B81F287AE000CA282D /* NSData+NGTDigestCryptor.m */,
+				1237F5B41F287A8600CA282D /* NSData+NGTCryptor.h */,
+				1237F5B51F287A8600CA282D /* NSData+NGTCryptor.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		123154CC1F26F31700300563 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		123154CD1F26F31700300563 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				123154D41F26F4EF00300563 /* NSString+NGTBase64.h */,
+				123154D51F26F4EF00300563 /* NSString+NGTBase64.m */,
+				123154D71F27518100300563 /* NSString+NGTMD5.h */,
+				123154D81F27518100300563 /* NSString+NGTMD5.m */,
+				1237F5831F2828D900CA282D /* NSString+NGTRegex.h */,
+				1237F5841F2828D900CA282D /* NSString+NGTRegex.m */,
+				1237F5861F282CFA00CA282D /* NSString+NGTMicroTool.h */,
+				1237F5871F282CFA00CA282D /* NSString+NGTMicroTool.m */,
+				1237F5891F282ED600CA282D /* NSString+NGTDisplayTime.h */,
+				1237F58A1F282ED600CA282D /* NSString+NGTDisplayTime.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		123154CE1F26F31700300563 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1237F5BA1F287FA600CA282D /* NGTMicroToolKitUIKit.h */,
+				1237F5BD1F2882D800CA282D /* UITextField */,
+				1237F5A31F286EE100CA282D /* UIButton */,
+				1237F5A41F286EE100CA282D /* UIControl */,
+				1237F5A51F286EE100CA282D /* UINavigationController */,
+				1237F5A61F286EE100CA282D /* UITableViewCell */,
+				1237F5A71F286EE100CA282D /* UIView */,
+				123154CF1F26F31700300563 /* UIColor */,
+				123154D01F26F31700300563 /* UIImage */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		123154CF1F26F31700300563 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				1237F5A81F286F2000CA282D /* UIColor+NGTHexColor.h */,
+				1237F5A91F286F2000CA282D /* UIColor+NGTHexColor.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		123154D01F26F31700300563 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				1237F59A1F283DC300CA282D /* UIImage+NGTMicroTool.h */,
+				1237F59B1F283DC300CA282D /* UIImage+NGTMicroTool.m */,
+				1237F59D1F28404600CA282D /* UIImage+NGTMakeFromColor.h */,
+				1237F59E1F28404600CA282D /* UIImage+NGTMakeFromColor.m */,
+				1237F5A01F286D6A00CA282D /* UIImage+NGTTransform.h */,
+				1237F5A11F286D6A00CA282D /* UIImage+NGTTransform.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		1237F58C1F2833B600CA282D /* NSAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				1237F58D1F2833CC00CA282D /* NSAttributedString+NGTMicroTool.h */,
+				1237F58E1F2833CC00CA282D /* NSAttributedString+NGTMicroTool.m */,
+			);
+			path = NSAttributedString;
+			sourceTree = "<group>";
+		};
+		1237F5921F283AC800CA282D /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				1237F5931F283AE100CA282D /* NSArray+NGTMicroTool.h */,
+				1237F5941F283AE100CA282D /* NSArray+NGTMicroTool.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		1237F5961F283CAA00CA282D /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				1237F5971F283CBD00CA282D /* NSDictionary+NGTMicroTool.h */,
+				1237F5981F283CBD00CA282D /* NSDictionary+NGTMicroTool.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		1237F5A31F286EE100CA282D /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				1237F5AE1F2873B600CA282D /* UIButton+NGTTouchExtend.h */,
+				1237F5AF1F2873B600CA282D /* UIButton+NGTTouchExtend.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		1237F5A41F286EE100CA282D /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				1237F5B11F2875FA00CA282D /* UIControl+NGTResponseTime.h */,
+				1237F5B21F2875FA00CA282D /* UIControl+NGTResponseTime.m */,
+			);
+			path = UIControl;
+			sourceTree = "<group>";
+		};
+		1237F5A51F286EE100CA282D /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		1237F5A61F286EE100CA282D /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1237F5AB1F2872F200CA282D /* UITableViewCell+NGTAnimation.h */,
+				1237F5AC1F2872F200CA282D /* UITableViewCell+NGTAnimation.m */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		1237F5A71F286EE100CA282D /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		1237F5BD1F2882D800CA282D /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				1237F5BE1F2882ED00CA282D /* UITextField+NGTMicroTool.h */,
+				1237F5BF1F2882ED00CA282D /* UITextField+NGTMicroTool.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		1237F5C11F28845E00CA282D /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				1237F5C21F28847600CA282D /* NSObject+NGTMicroTool.h */,
+				1237F5C31F28847600CA282D /* NSObject+NGTMicroTool.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		123C33A11F2635E100DB95BE = {
+			isa = PBXGroup;
+			children = (
+				123C33AC1F2635E100DB95BE /* NGTMicroToolKitDemo */,
+				123C33AB1F2635E100DB95BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		123C33AB1F2635E100DB95BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				123C33AA1F2635E100DB95BE /* NGTMicroToolKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		123C33AC1F2635E100DB95BE /* NGTMicroToolKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				123C33B01F2635E100DB95BE /* AppDelegate.h */,
+				123C33B11F2635E100DB95BE /* AppDelegate.m */,
+				123C33B31F2635E100DB95BE /* ViewController.h */,
+				123C33B41F2635E100DB95BE /* ViewController.m */,
+				1237F5901F2836DC00CA282D /* 1_mazy_ma.jpg */,
+				123154C81F26F31700300563 /* NGTMicroToolKit */,
+				123C33B61F2635E100DB95BE /* Main.storyboard */,
+				123C33B91F2635E100DB95BE /* Assets.xcassets */,
+				123C33BB1F2635E100DB95BE /* LaunchScreen.storyboard */,
+				123C33BE1F2635E100DB95BE /* Info.plist */,
+				123C33AD1F2635E100DB95BE /* Supporting Files */,
+			);
+			path = NGTMicroToolKitDemo;
+			sourceTree = "<group>";
+		};
+		123C33AD1F2635E100DB95BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				123C33AE1F2635E100DB95BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		123C33A91F2635E100DB95BE /* NGTMicroToolKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 123C33C11F2635E100DB95BE /* Build configuration list for PBXNativeTarget "NGTMicroToolKitDemo" */;
+			buildPhases = (
+				123C33A61F2635E100DB95BE /* Sources */,
+				123C33A71F2635E100DB95BE /* Frameworks */,
+				123C33A81F2635E100DB95BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NGTMicroToolKitDemo;
+			productName = NGTMicroToolKitDemo;
+			productReference = 123C33AA1F2635E100DB95BE /* NGTMicroToolKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		123C33A21F2635E100DB95BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = NightXu;
+				TargetAttributes = {
+					123C33A91F2635E100DB95BE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7CXCX9P8W5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 123C33A51F2635E100DB95BE /* Build configuration list for PBXProject "NGTMicroToolKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 123C33A11F2635E100DB95BE;
+			productRefGroup = 123C33AB1F2635E100DB95BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				123C33A91F2635E100DB95BE /* NGTMicroToolKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		123C33A81F2635E100DB95BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123C33BD1F2635E100DB95BE /* LaunchScreen.storyboard in Resources */,
+				123C33BA1F2635E100DB95BE /* Assets.xcassets in Resources */,
+				1237F5911F2836DC00CA282D /* 1_mazy_ma.jpg in Resources */,
+				123C33B81F2635E100DB95BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		123C33A61F2635E100DB95BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1237F5B91F287AE000CA282D /* NSData+NGTDigestCryptor.m in Sources */,
+				1237F5851F2828D900CA282D /* NSString+NGTRegex.m in Sources */,
+				1237F5AD1F2872F200CA282D /* UITableViewCell+NGTAnimation.m in Sources */,
+				123C33B51F2635E100DB95BE /* ViewController.m in Sources */,
+				123154D31F26F35C00300563 /* NSData+NGTBase64.m in Sources */,
+				1237F5881F282CFA00CA282D /* NSString+NGTMicroTool.m in Sources */,
+				1237F5B31F2875FA00CA282D /* UIControl+NGTResponseTime.m in Sources */,
+				123154D91F27518100300563 /* NSString+NGTMD5.m in Sources */,
+				1237F5A21F286D6A00CA282D /* UIImage+NGTTransform.m in Sources */,
+				1237F5951F283AE100CA282D /* NSArray+NGTMicroTool.m in Sources */,
+				1237F59C1F283DC300CA282D /* UIImage+NGTMicroTool.m in Sources */,
+				1237F59F1F28404600CA282D /* UIImage+NGTMakeFromColor.m in Sources */,
+				1237F5B61F287A8600CA282D /* NSData+NGTCryptor.m in Sources */,
+				123C33B21F2635E100DB95BE /* AppDelegate.m in Sources */,
+				1237F58F1F2833CC00CA282D /* NSAttributedString+NGTMicroTool.m in Sources */,
+				1237F5C01F2882ED00CA282D /* UITextField+NGTMicroTool.m in Sources */,
+				1237F58B1F282ED600CA282D /* NSString+NGTDisplayTime.m in Sources */,
+				123C33AF1F2635E100DB95BE /* main.m in Sources */,
+				1237F5C41F28847600CA282D /* NSObject+NGTMicroTool.m in Sources */,
+				1237F5991F283CBD00CA282D /* NSDictionary+NGTMicroTool.m in Sources */,
+				123154D61F26F4EF00300563 /* NSString+NGTBase64.m in Sources */,
+				1237F5AA1F286F2000CA282D /* UIColor+NGTHexColor.m in Sources */,
+				1237F5B01F2873B600CA282D /* UIButton+NGTTouchExtend.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		123C33B61F2635E100DB95BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				123C33B71F2635E100DB95BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		123C33BB1F2635E100DB95BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				123C33BC1F2635E100DB95BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		123C33BF1F2635E100DB95BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		123C33C01F2635E100DB95BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		123C33C21F2635E100DB95BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CXCX9P8W5;
+				INFOPLIST_FILE = NGTMicroToolKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NGTMicroToolKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		123C33C31F2635E100DB95BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CXCX9P8W5;
+				INFOPLIST_FILE = NGTMicroToolKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NGTMicroToolKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		123C33A51F2635E100DB95BE /* Build configuration list for PBXProject "NGTMicroToolKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123C33BF1F2635E100DB95BE /* Debug */,
+				123C33C01F2635E100DB95BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		123C33C11F2635E100DB95BE /* Build configuration list for PBXNativeTarget "NGTMicroToolKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123C33C21F2635E100DB95BE /* Debug */,
+				123C33C31F2635E100DB95BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 123C33A21F2635E100DB95BE /* Project object */;
+}
