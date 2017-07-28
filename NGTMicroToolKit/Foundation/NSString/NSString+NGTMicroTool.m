@@ -43,4 +43,22 @@
                      maxHeight:(CGFloat)maxHeight{
     return [self ngt_rectWithFontSize:fontSize width:CGFLOAT_MAX height:maxHeight];
 }
+
+
+
+
++ (instancetype)ngt_stringByCommon:(NSString *)commonString
+                             count:(unsigned int)count{
+    if([commonString length]){return nil;}
+    NSMutableArray *arr = [[NSMutableArray alloc] init];
+    for (int i = 0; i<count; i++) {
+        [arr addObject:commonString.copy];
+    }
+    return [arr componentsJoinedByString:@""];
+}
+
+
+
+
+
 @end

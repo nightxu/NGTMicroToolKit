@@ -23,4 +23,7 @@
 - (CGRect)ngt_rectWithFontSize:(CGFloat)fontSize
                      maxHeight:(CGFloat)maxHeight;
 
++ (instancetype)ngt_stringByCommon:(NSString *)commonString
+                             count:(unsigned int)count;
+
 @end
